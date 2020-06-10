@@ -24,6 +24,7 @@
 		2CA5ABE224907A130083750D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2CA5ABE524907A130083750D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CA5ABE724907A130083750D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA5ABED24907D140083750D /* MX-Editor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MX-Editor.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		2CA5ABD824907A0F0083750D /* MX-Editor */ = {
 			isa = PBXGroup;
 			children = (
+				2CA5ABED24907D140083750D /* MX-Editor.entitlements */,
 				2CA5ABD924907A0F0083750D /* AppDelegate.swift */,
 				2CA5ABDB24907A0F0083750D /* SceneDelegate.swift */,
 				2CA5ABDD24907A0F0083750D /* ContentView.swift */,
@@ -284,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MX-Editor/MX-Editor.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MX-Editor/Preview Content\"";
 				DEVELOPMENT_TEAM = T6PJ3BPG8T;
@@ -295,6 +298,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bs10081.MX-Editor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MX-Editor/MX-Editor.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MX-Editor/Preview Content\"";
 				DEVELOPMENT_TEAM = T6PJ3BPG8T;
@@ -315,6 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bs10081.MX-Editor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
